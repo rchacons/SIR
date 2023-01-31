@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.29.0" timestamp="2023-01-31T09:56:19.776">
+<file name="/home/rchacons/Documents/Cours/S8/SIR/TP/TP1/src/main/java/fr/istic/m1/sir/FirstPdf.java">
+<violation beginline="169" endline="169" begincolumn="25" endcolumn="56" rule="UnusedPrivateMethod" ruleset="Best Practices" package="fr.istic.m1.sir" class="FirstPdf" method="createTable2" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'createTable2(Section)'.
+</violation>
+</file>
+</pmd>

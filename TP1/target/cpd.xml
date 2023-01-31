@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd>
+   <duplication lines="35" tokens="143">
+      <file column="36" endcolumn="23" endline="169" line="135"
+            path="/home/rchacons/Documents/Cours/S8/SIR/TP/TP1/src/main/java/fr/istic/m1/sir/FirstPdf.java"/>
+      <file column="37" endcolumn="23" endline="202" line="169"
+            path="/home/rchacons/Documents/Cours/S8/SIR/TP/TP1/src/main/java/fr/istic/m1/sir/FirstPdf.java"/>
+      <codefragment><![CDATA[    private static void createTable(Section subCatPart)
+            throws BadElementException {
+        PdfPTable table = new PdfPTable(3);
+
+        // t.setBorderColor(BaseColor.GRAY);
+        // t.setPadding(4);
+        // t.setSpacing(4);
+        // t.setBorderWidth(1);
+
+        PdfPCell c1 = new PdfPCell(new Phrase("Table Header 1"));
+        c1.setHorizontalAlignment(Element.ALIGN_CENTER);
+        table.addCell(c1);
+
+        c1 = new PdfPCell(new Phrase("Table Header 2"));
+        c1.setHorizontalAlignment(Element.ALIGN_CENTER);
+        table.addCell(c1);
+
+        c1 = new PdfPCell(new Phrase("Table Header 3"));
+        c1.setHorizontalAlignment(Element.ALIGN_CENTER);
+        table.addCell(c1);
+        table.setHeaderRows(1);
+
+        table.addCell("1.0");
+        table.addCell("1.1");
+        table.addCell("1.2");
+        table.addCell("2.1");
+        table.addCell("2.2");
+        table.addCell("2.3");
+
+        subCatPart.add(table);
+
+    }
+
+    //TODO: supprimer
+    private static void createTable2(Section subCatPart)]]></codefragment>
+   </duplication>
+</pmd-cpd>
